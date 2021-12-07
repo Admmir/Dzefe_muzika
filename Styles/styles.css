@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width: 900px)
+{
+.upustva{ display: block !important;} 
+.upustvaslike{ margin: 0% !important;}
+}
+.upustva{
+    display: inline-flex ;
+}
+.upustvaslike{
+    margin-left:3rem;
+}
+.container{
+    background-color: white !important;
+    background-image: none !important;
+}
+.container-fluid{
+    background-image: none !important;
+}
+body{
+    background-color:#2e4e81 !important;
+    background-position:center;
+    background-size: cover;
+}
+.navbar2{
+    position: sticky !important;
+    top:0;
+    z-index: 3;
+}
