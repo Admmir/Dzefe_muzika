@@ -2,10 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
-@media screen and (max-width: 900px)
+@media screen and (max-width: 880px)
 {
 .upustva{ display: block !important;} 
 .upustvaslike{ margin: 0% !important;}
+
+}
+@media screen and (max-width: 700px){
+    .dugitekst{ display: block !important;}
+    .dugitekst1{width: 100% !important;}
+    .dugitekst2{width: 100% !important;}
 }
 .upustva{
     display: inline-flex ;
@@ -28,5 +34,16 @@ body{
 .navbar2{
     position: sticky !important;
     top:0;
-    z-index: 3;
+    z-index: 6;
+}
+.dugitekst{
+width: 100%; 
+background-color: rgb(230, 255, 246);
+display: inline-flex;   
+}
+.dugitekst1{
+    width: 50%;
+}
+.dugitekst2{
+    width:50%;
 }
